@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Experiments & artifacts (regenerate locally)
+datasets/
+results/
+outputs/
+predictions/
+saved_checkpoints/
+checkpoints/
+wandb/
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+*.pem

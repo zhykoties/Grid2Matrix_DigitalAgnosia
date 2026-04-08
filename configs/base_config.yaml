@@ -1,0 +1,27 @@
+# Base configuration for grid VLM benchmark experiments
+
+# Data generation parameters
+grid_size: [4,4]  # [height, width]
+num_colors: 3
+image_resolution: [512, 512]  # [width, height]
+pattern_strategy: "random"  # Options: random, stripes, checkerboard, vertical_stripes
+num_samples: 100
+
+# Model parameters
+model_name: "OpenGVLab/InternVL3.5-8B"
+device: "auto"  # auto, cuda, cpu
+
+batch_size: 1    
+max_new_tokens: 200  
+
+# Probe experiment parameters
+test_size: 0.2
+learning_rate: 1e-5
+epochs: 100
+
+# Output directories
+output_dir: "./outputs"
+dataset_dir: "./datasets"
+predictions_dir: "./predictions"
+results_dir: "./results"
+
