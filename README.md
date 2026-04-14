@@ -77,12 +77,15 @@ python run_probe_experiment.py \
 ## Citation
 
 If this code is useful, please cite our paper:
+
+```bibtex
 @article{zhang2026grid2matrix,
   title={Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models},
   author={Zhang, Yunkai and Li, Linda and Cui, Yingxin and Ruan, Xiyuan and Zheng, Zeyu and Chen, Kezhen and Zhang, Yi and Yang, Diji},
-  journal={Preprint. Under review.},
+  journal={arXiv preprint arXiv:2604.09687},
   year={2026}
 }
+```
 
 ## License
 
