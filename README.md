@@ -1,6 +1,7 @@
 # Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models
+[![arXiv](https://img.shields.io/badge/arXiv-2506.06220-b31b1b.svg)](https://arxiv.org/abs/2604.09687)
 
-Official code release for the paper **Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models** by Yunkai Zhang, Linda Li, Yingxin Cui, Xiyuan Ruan, Zeyu Zheng, Kezhen Chen, Yi Zhang, and Diji Yang.
+Official code release for the paper **Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models**.
 
 This repository contains scripts to **generate** synthetic grid datasets, run **zero-shot VLM inference**, and train **linear probes** on vision-encoder (or projector) features.
 
